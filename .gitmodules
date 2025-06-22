@@ -13,3 +13,6 @@
 [submodule "pack/plugins/opt/nerdtree"]
 	path = pack/plugins/opt/nerdtree
 	url = git@github.com:preservim/nerdtree.git
+[submodule "pack/plugins/start/ultisnips"]
+	path = pack/plugins/start/ultisnips
+	url = git@github.com:SirVer/ultisnips.git
