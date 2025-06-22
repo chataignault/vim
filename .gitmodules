@@ -1,0 +1,3 @@
+[submodule "pack/plugins/opt/goyo.vim"]
+	path = pack/plugins/opt/goyo.vim
+	url = git@github.com:junegunn/goyo.vim.git
