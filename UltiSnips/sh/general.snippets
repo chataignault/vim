@@ -1,0 +1,21 @@
+global !p
+def at_first_line():
+    return int(vim.eval("line('.')")) == 1
+endglobal
+
+context "at_first_line()"
+snippet sh "SheBang" bA
+#!/bin/bash
+$0
+endsnippet
+
+snippet if "If statement" bA
+if [ $1 ]
+then
+	$2
+else
+	$3
+fi
+$0
+endsnippet
+
